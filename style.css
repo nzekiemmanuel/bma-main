@@ -50,6 +50,13 @@ span{
 .navbar-second{
 background-color: lightblue;
 height: 130px;
+position: sticky;
+top: 0;
+width: auto;
+box-sizing: border-box;
+justify-content: space-between;
+align-items: center;
+display: flex;
 }
 
 .navbar-second ul{

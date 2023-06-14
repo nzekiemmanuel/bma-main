@@ -12,10 +12,27 @@ body{
     background-position: center;
 }
 .container{
+    width: 320px;
+    height: 420px;
     display: flex;
     align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
     justify-content: center;
-    min-height: 40vh;
+    min-height: 90vh;
+    top: 50%;
+    left: 50%;
+}
+.logo{
+    background-color: white;
+    justify-content: center;
+    border-radius: 150px;
+    align-items: center;
+    display: center;
+    height: 115px;
+    width: 115px;
+    margin-left: 25%;
 }
 .box{
     background: white;
@@ -52,7 +69,7 @@ body{
 }
 .btn{
     height: 35px;
-    background: lightblue;
+    background: black;
     border-radius:5px;
     border: 0;
     color: #fff;
@@ -76,4 +93,7 @@ body{
 }
 .title{
     font-weight: 100;
+}
+.field .fa{
+    margin-right: 10px;
 }
