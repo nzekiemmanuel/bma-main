@@ -59,6 +59,15 @@ align-items: center;
 display: flex;
 }
 
+.navbar-second h1{
+text-align: left;
+font-size: 40px;
+float: right;
+font-weight: bold;
+margin: 35px;
+
+}
+
 .navbar-second ul{
     display: inline-flex;
     list-style: none;
