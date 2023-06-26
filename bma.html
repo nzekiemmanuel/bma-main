@@ -7,47 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/bma" href="bma.png">
-<style>
-</style>
+
 </head>
 <body>
-    <nav class="navbar-second flex">
-        <div class="logo">
-            <img src="bma.png" alt="BMA">
-            <h1>Bandari Maritime Academy</h1>
-        </div>
-        <ul class="flex">
-            <li class="active"><a href="bma.html"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="#"><i class="fa fa-user"></i>About Us</a>
-                <div class="sub-flex">
-            <ul>
-                <li><a href="academy_profile.html"><i class="fa fa-school"></i>Academy Profile</a></li>
-                <li><a href="Governace.html"><i class="fa fa-building-columns"></i>Governance</a></li>
-                <li><a href="organisational_structure.html"><i class="fa fa-sitemap"></i>Organisational Structure</a></li>
-                <li><a href="mission_vision.html"><i class="fa fa-eye-low-vision "></i>Mission & Vission</a></li>
-                <li><a href="academy_value.html"><i class="fa fa-layer-group"></i>Academy Values</a></li>
-            </ul>
-                </div></li>
-            <li><a href="#"><i class="fa fa-graduation-cap"></i>Academics</a>
-                <div class="sub-flex">
-            <ul>
-                <li><a href="admission.html"><i class="fa fa-address-card"></i>Admission</a></li>
-                <li><a href="courses.html"><i class="fa fa-book"></i>Courses</a></li>
-                <li><a href="#"><i class="fa fa-computer"></i>E-learning</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Alumnin</a></li>
-
-            </ul>
-                </div></li>
-            <li><a href="#"><i class="fa fa-newspaper"></i>Media & News</a>
-                <div class="sub-flex">
-                    <ul>
-                        <li><a href="downloads.html"><i class="fa fa-download"></i>Downloads</a></li>
-                    </ul>
-                </li>
-                </div>
-            <li><a href="contact.html"><i class="fa fa-phone"></i>Contact Us</a></li>
-        </ul>
-    </nav>
     <nav class="navbar-one flex">
         <div class="left flex">
             <div class="email">
@@ -60,10 +22,10 @@
             </div>
         </div>
         <div class="portal">
-            <a href="login_stud.html">Student Portal</a>
+            <a href="login.html">Student Portal</a>
         </div>
         <div class="portal">
-            <a href="login.html">Staff Portal</a>
+            <a href="staff.html">Staff Portal</a>
         </div>
             <div class="right flex">
                 
@@ -84,47 +46,135 @@
                     <span></span>
                 </div>
             </div>
+        </div>
     </nav>
-    
-   <!--image slider start-->
-   <div class="slider">
-    <div class="slides">
-      <!--radio buttons start-->
-      <input type="radio" name="radio-btn" id="radio1">
-      <input type="radio" name="radio-btn" id="radio2">
-      <input type="radio" name="radio-btn" id="radio3">
-      <input type="radio" name="radio-btn" id="radio4">
-      <!--radio buttons end-->
-      <!--slide images start-->
-      <div class="slide first">
-        <img src="slide5.jpeg" alt="">
-      </div>
-      <div class="slide">
-        <img src="slide1.jpg" alt="">
-      </div>
-      <div class="slide">
-        <img src="slide3.jpg" alt="">
-      </div>
-      <div class="slide">
-        <img src="slide2.jpg" alt="">
-      </div>
-      <!--slide images end-->
-      
-    </div>
-  </div>
-  <!--image slider end-->
+    <nav class="navbar-second flex">
+        <div class="logo">
+            <img src="bma.png" alt="BMA">
+        </div>
 
-  <script type="text/javascript">
-  var counter = 1;
-  setInterval(function(){
-    document.getElementById('radio' + counter).checked = true;
-    counter++;
-    if(counter > 4){
-      counter = 1;
-    }
-  }, 5000);
-  </script>  
-     
-     
+        <div class="navigation">
+
+        <input type="checkbox" 
+        class="toggle-menu">
+            <div class="hamburger"></div>
+
+
+        <ul class="flex">
+            <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+                <div class="sub-flex">
+            <ul>
+                <li><a href="#"><i class="fa fa-school"></i>Academy Profile</a></li>
+                <li><a href="#"><i class="fa fa-building-columns"></i>Governance</a></li>
+                <li><a href="#"><i class="fa fa-sitemap"></i>Organisational Structure</a></li>
+                <li><a href="#"><i class="fa fa-eye-low-vision "></i>Mission & Vission</a></li>
+                <li><a href="#"><i class="fa fa-layer-group"></i>Academy Values</a></li>
+            </ul>
+                </div></li>
+            <li><a href="#"><i class="fa fa-graduation-cap"></i>Academics</a>
+                <div class="sub-flex">
+            <ul>
+                <li><a href="#"><i class="fa fa-address-card"></i>Admission</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>Courses</a></li>
+                <li><a href="#"><i class="fa fa-computer"></i>E-learning</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i>Alumnin</a></li>
+
+            </ul>
+                </div></li>
+            <li><a href="#"><i class="fa fa-newspaper"></i>Media & News</a>
+                <div class="sub-flex">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-download"></i>Downloads</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="slide5.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <img src="slide1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="slide3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="slide2.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          
+        </div>
+      </div>
+      <!--image slider end-->
+    
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>  
+         
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+             <div class="footer-col">
+          
+            <h4>Related links</h4>
+            <ul>
+            <li><a href="#">KPA-Kenya Ports Authority</a></li>
+            <li><a href="#">PMAESA-Port Management Association for Eastern and Southern Africa</a></li>
+            <li><a href="#">IMO-International Maritime Organization</a></li>
+            <li><a href="#">IAPH-International Association of port and harbour</a></li>
+            <li><a href="#">KMA-Kenya Maritime Authority</a></li>
+        </ul>
+             </div>
+        <div class="footer-col">
+            <h4>Admissions</h4>
+            <ul>
+                    <li><a href="#">How to Apply</a></li>
+                    <li><a href="#">Students Forms Downloads</a></li>
+                    <li><a href="#">Semester Dates</a></li>
+                    <li><a href="#">Notice Board</a></li>
+                </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contacts</h4>
+            <ul>
+                    <li><a href="#">Mobile:+254 412 112 999</a></li>
+                    <li><a href="#">P.O BOX 99469-80107</a></li>
+                    <li><a href="#">Email: info@bma.ac.ke</a></li>
+                    <li><a href="#">Fax +254412315398</a></li>
+                </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect with Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+        </div>
+       
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
